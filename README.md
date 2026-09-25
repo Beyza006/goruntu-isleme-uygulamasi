@@ -1,17 +1,17 @@
-# Görüntü İşleme Uygulaması 🖼️
+# Görüntü İşleme Uygulaması
 
 Bu proje, Görüntü İşleme dersi kapsamında 4 kişilik grubumuz tarafından geliştirilmiştir. Temel görüntü işleme algoritmalarını sıfırdan implement ederek interaktif bir masaüstü arayüzüne entegre ettik.
 
-## 🎯 Projenin Amacı
+## Projenin Amacı
 OpenCV ve NumPy gibi kütüphaneler aracılığıyla hazır fonksiyon çağırmak yerine, algoritmalar sıfırdan Python ile yazılmıştır. Her modül bağımsız test edilebilir ve genişletilebilir şekilde tasarlanmıştır.
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 - **Dil:** Python
 - **Arayüz:** Tkinter (CustomTkinter stili)
 - **Görüntü İşleme:** OpenCV, NumPy, Pillow
 - **Görselleştirme:** Matplotlib
 
-## 🔧 Desteklenen Algoritmalar (15 Modül)
+## Desteklenen Algoritmalar (15 Modül)
 
 | # | Algoritma | Açıklama |
 |---|-----------|----------|
@@ -31,12 +31,12 @@ OpenCV ve NumPy gibi kütüphaneler aracılığıyla hazır fonksiyon çağırma
 | 14 | Blurring | Ortalama, Ağırlıklı, Motion Blur |
 | 15 | Morfolojik İşlemler | Genişletme, Erozyon, Açma, Kapama |
 
-## 🚀 Nasıl Çalıştırılır?
+## Nasıl Çalıştırılır?
 
 **1. Depoyu İndirin:**
 ```bash
-git clone https://github.com/Beyza006/image-processing-app.git
-cd image-processing-app
+git clone https://github.com/Beyza006/goruntu-isleme-uygulamasi.git
+cd goruntu-isleme-uygulamasi
 ```
 
 **2. Gerekli Kütüphaneleri Kurun:**
@@ -50,7 +50,7 @@ python app.py
 ```
 > **Not:** Uygulama açıldığında `images/` klasöründeki ilk görsel otomatik olarak yüklenir. İsterseniz arayüz üzerinden farklı bir görsel de seçebilirsiniz.
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 ```
 Image_Processing_Project/
 │
